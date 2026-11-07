@@ -1,0 +1,5 @@
+mixin.to("net.minecraft.server.MinecraftServer")
+    :method("loadLevel")
+        :inject({ at = { { "HEAD" } }, method = { "loadLevel()V" } })
+        :build()
+    :build("minecraft_server_mixin")

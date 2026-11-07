@@ -1,0 +1,9 @@
+{
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "entrypoints": {
+    "main": "main.lua",
+    "mixin": "mixin.lua"
+  }
+}
